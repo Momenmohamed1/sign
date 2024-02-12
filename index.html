@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign</title>
+</head>
+<body>
+    <header class="head">
+        <div class="navbar">
+            <div class="logo">Momen</div>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Server</a>
+                <a href="#">About As</a>
+                <a href="#">Rebort</a>
+            </div>
+        </div>
+    </header>
+    <div class="page">
+        <form>
+            <h1>Sign</h1>
+            <div class="input">
+                <label>Frist Name :</label>
+                <input id="FristName" type="text" required placeholder="Enter Frist Name">
+            </div>
+            <div class="input">
+                <label>Last Name :</label>
+                <input id="LastName" type="text" required placeholder="Enter Last Name">
+            </div>
+            <div class="input , phone" >
+                <label>Phone :</label>
+                <input type="number" id="phone" placeholder="enter your phone" required>
+            </div>
+            <div class="email , input">
+                <label>email :</label>
+                <input type="email" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="password , input">
+                <label>password :</label>
+                <input type="password" id="password" placeholder="Enter password" required>
+            </div>
+            <div class="re-password , input">
+                <label>re-password :</label>
+                <input type="password" id="re_password" placeholder="Enter password" required>
+            </div>
+            <div class="male , checkbox">
+                <label>Male :</label>
+                <input type="radio" id="male">
+            </div>
+            <div class="female , checkbox">
+                <label>Female :</label>
+                <input type="radio" id="female">
+            </div>
+            <div class="student , checkbox">
+                <label>Student :</label>
+                <input type="radio" id="student">
+            </div>
+            <div class="graduted , checkbox">
+                <label>Graduted :</label>
+                <input type="radio" id="graduted">
+            </div>
+            <select class="select">
+                <option>Cairo</option>
+                <option>Alexandria</option>
+                <option>Marsa Matrouh</option>
+                <option>Hurghada</option>
+                <option>Fayoum</option>
+            </select>
+            <div class="submit">
+                <button id="creat">sign</button>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
